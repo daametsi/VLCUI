@@ -4,7 +4,7 @@ import AppKit
 import UIKit
 #endif
 
-#if os(macOS)
+#if os(macOS) || os(visionOS)
 import VLCKit
 #elseif os(tvOS)
 import TVVLCKit
